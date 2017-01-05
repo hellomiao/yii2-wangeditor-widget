@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # yii2-ueditor-widget
 
 ### composer.json
@@ -133,3 +134,6 @@ public function format(\xj\ueditor\actions\Uploader $action) {
     return "{$p1}/{$p2}/{$filehash}.{$fileext}";
 }
 ```
+=======
+# yii2-wangeditor-widget
+>>>>>>> 732c0996bb526ea99a7ecefb4cb469c3d9bfada6

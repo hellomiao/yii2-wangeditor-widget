@@ -100,7 +100,7 @@ EOF;
 
     public function registerScripts() {
         $jsonOptions = Json::encode($this->jsOptions);
-        $script = "UE.getEditor('{$this->id}', " . $jsonOptions . ")";
+        $script = "var editor = new wangEditor('{$this->id}');editor.create();";
         if ($this->readyEvent) {
             $script .= ".ready(function(){{$this->readyEvent}})";
         }
